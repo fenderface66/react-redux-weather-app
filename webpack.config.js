@@ -7,6 +7,9 @@ function getEntrySources(sources) {
 }
 
 module.exports = {
+  
+    devtool: "source-map",
+  
 	entry: {
 		Index: [
 			'webpack-dev-server/client?http://localhost:8080',
